@@ -26,5 +26,13 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/music/
+  fonts:
+    - family: gillSans
+      fonts:
+        - asset: assets/fonts/GillSans.ttc
 flutter_intl:
   enabled: true
+

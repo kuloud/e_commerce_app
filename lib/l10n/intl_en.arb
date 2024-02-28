@@ -2,5 +2,6 @@
     "tabBarHome": "Home",
     "tabBarMe": "Mine",
     "tabBarShop": "Shop",
-    "tabBarWarehouse": "Warehouse"
+    "tabBarWarehouse": "Warehouse",
+    "noData": "No Information"
 }

@@ -1,4 +1,5 @@
 # e_commerce_app
+![](https://img.shields.io/badge/Platform-%20Android%20|%20iOS%20|%20Web%20-blue)
 
 去年做了几个Flutter应用，同一套代码fork了几个分支（如下截图是最新的一个分支实现），花点时间整理一个简单的APP工程模版：
 
@@ -6,16 +7,24 @@
 1. 之前只面向移动端，这次代码整理主要适配web
 1. 只把涉及到的且常用的功能摘出来，尽量简化实现，方便后面项目复用
 
-| ![home](./showcase/home.jpg) | ![shop](./showcase/shop.jpg) | ![warehouse](./showcase/warehouse.jpg) |![mine](./showcase/mine.jpg) |
-|:---:|:---:|:---:|:---:|
-| home | shop | warehouse | mine |
-
-| ![detail](./showcase/detail.jpg) | ![select](./showcase/select.jpg) | ![checkout](./showcase/checkout.jpg) |![open_box_record](./showcase/open_box_record.jpg) |
-|:---:|:---:|:---:|:---:|
-| detail | select | checkout | open box record |
+<table>
+  <tr>
+    <td><img src="./showcase/home.jpg" style="width: 162px; height: 360px;" /><br>home</td>
+    <td><img src="./showcase/shop.jpg" style="width: 162px; height: 360px;" /><br>shop</td>
+    <td><img src="./showcase/warehouse.jpg" style="width: 162px; height: 360px;" /><br>warehouse</td>
+    <td><img src="./showcase/mine.jpg" style="width: 162px; height: 360px;" /><br>mine</td>
+  </tr>
+  <tr>
+    <td><img src="./showcase/detail.jpg" style="width: 162px; height: 360px;" /><br>detail</td>
+    <td><img src="./showcase/select.jpg" style="width: 162px; height: 360px;" /><br>select</td>
+    <td><img src="./showcase/checkout.jpg" style="width: 162px; height: 360px;" /><br>checkout</td>
+    <td><img src="./showcase/open_box_record.jpg" style="width: 162px; height: 360px;" /><br>open box record</td>
+  </tr>
+</table>
 
 # 功能：
 1. 国际化
+1. 自定义字体
 1. 首页
     * 轮播图
 

@@ -2,6 +2,7 @@ import 'package:e_commerce_app/generated/l10n.dart';
 import 'package:e_commerce_app/global.dart';
 import 'package:e_commerce_app/pages/index/index_page.dart';
 import 'package:e_commerce_app/routes.dart';
+import 'package:e_commerce_app/styles/common_styles.dart';
 import 'package:flutter/material.dart';
 
 class MyApp extends StatefulWidget {
@@ -20,6 +21,9 @@ class _MyAppState extends State<MyApp> {
         S.delegate,
       ],
       supportedLocales: S.delegate.supportedLocales,
+      theme: ThemeData(
+        fontFamily: fontFamilyGillSans, // 全局自定义字体
+      ),
       onGenerateRoute: appRoutes,
       initialRoute: IndexPage.routeName,
     );
