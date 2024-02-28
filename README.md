@@ -1,8 +1,18 @@
 # e_commerce_app
 
-整理一个简单的APP模版：
+去年做了几个Flutter应用，同一套代码fork了几个分支（如下截图是最新的一个分支实现），花点时间整理一个简单的APP工程模版：
+
 1. 最小依赖原则
-1. 面向移动端，适配web
+1. 之前只面向移动端，这次代码整理主要适配web
+1. 只把涉及到的且常用的功能摘出来，尽量简化实现，方便后面项目复用
+
+| ![home](./showcase/home.jpg) | ![shop](./showcase/shop.jpg) | ![warehouse](./showcase/warehouse.jpg) |![mine](./showcase/mine.jpg) |
+|:---:|:---:|:---:|:---:|
+| home | shop | warehouse | mine |
+
+| ![detail](./showcase/detail.jpg) | ![select](./showcase/select.jpg) | ![checkout](./showcase/checkout.jpg) |![open_box_record](./showcase/open_box_record.jpg) |
+|:---:|:---:|:---:|:---:|
+| detail | select | checkout | open box record |
 
 # 功能：
 1. 国际化
@@ -32,8 +42,8 @@ flutter run -d chrome --web-browser-flag "--disable-web-security"
 
 # 组件配置
 * injectable
-依赖注入
-定义`di.dart`文件
+
+依赖注入，定义`di.dart`文件
 ```dart
 @InjectableInit()
 Future<void> configureDependencies() async => await GetIt.instance.init();
