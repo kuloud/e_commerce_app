@@ -3,6 +3,7 @@ import 'package:e_commerce_app/global.dart';
 import 'package:e_commerce_app/pages/index/index_page.dart';
 import 'package:e_commerce_app/routes.dart';
 import 'package:e_commerce_app/styles/common_styles.dart';
+import 'package:firebase_analytics/firebase_analytics.dart';
 import 'package:flutter/material.dart';
 
 class MyApp extends StatefulWidget {
@@ -12,11 +13,16 @@ class MyApp extends StatefulWidget {
   State<MyApp> createState() => _MyAppState();
 }
 
-class _MyAppState extends State<MyApp> {
+class _MyAppState extends State<MyApp> with WidgetsBindingObserver {
+  static final FirebaseAnalytics _analytics = FirebaseAnalytics.instance;
+  static final FirebaseAnalyticsObserver _analyticsObserver =
+      FirebaseAnalyticsObserver(analytics: _analytics);
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       navigatorKey: navigatorKey,
+      navigatorObservers: [_analyticsObserver],
       localizationsDelegates: const [
         S.delegate,
       ],
