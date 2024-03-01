@@ -27,6 +27,7 @@
 1. 自定义字体
 1. 首页
     * 轮播图
+1. Google登录
 
 
 # 依赖组件：
@@ -37,6 +38,9 @@
 1. injectable 依赖注入
 1. logger 日志
 1. card_swiper 轮播图
+1. google_sign_in 谷歌登录
+1. firebase_analytics firebase分析
+1. fluttertoast toast
 
 
 **可选**

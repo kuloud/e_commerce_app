@@ -3,5 +3,11 @@
     "tabBarMe": "Mine",
     "tabBarShop": "Shop",
     "tabBarWarehouse": "Warehouse",
-    "noData": "No Information"
+    "labelAgreeToTerms": "I have read and agree to",
+    "labelTerms": "Terms of Service",
+    "labelPrivacyPolicy": "Privacy Policy",
+    "labelUserAgreement": "User Agreement",
+    "noData": "No Information",
+    "googleSignInCancelled": "Cancelled login with google",
+    "commonError": "Something went horribly wrong, please try again later!"
 }

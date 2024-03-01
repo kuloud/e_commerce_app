@@ -147,7 +147,7 @@ class Api {
     if (code == ApiCode.kCodeTokenInvalid ||
         code == ApiCode.kCodeTokenExpired) {
       _shared.remove('plant_access_token');
-      AuthService().signIn(navigatorKey.currentContext!);
+      // 跳转登录页
     }
 
     return response;

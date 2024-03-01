@@ -22,6 +22,17 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "commonError": MessageLookupByLibrary.simpleMessage(
+            "Something went horribly wrong, please try again later!"),
+        "googleSignInCancelled":
+            MessageLookupByLibrary.simpleMessage("Cancelled login with google"),
+        "labelAgreeToTerms":
+            MessageLookupByLibrary.simpleMessage("I have read and agree to"),
+        "labelPrivacyPolicy":
+            MessageLookupByLibrary.simpleMessage("Privacy Policy"),
+        "labelTerms": MessageLookupByLibrary.simpleMessage("Terms of Service"),
+        "labelUserAgreement":
+            MessageLookupByLibrary.simpleMessage("User Agreement"),
         "noData": MessageLookupByLibrary.simpleMessage("No Information"),
         "tabBarHome": MessageLookupByLibrary.simpleMessage("Home"),
         "tabBarMe": MessageLookupByLibrary.simpleMessage("Mine"),

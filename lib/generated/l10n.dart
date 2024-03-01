@@ -90,11 +90,71 @@ class S {
     );
   }
 
+  /// `I have read and agree to`
+  String get labelAgreeToTerms {
+    return Intl.message(
+      'I have read and agree to',
+      name: 'labelAgreeToTerms',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Terms of Service`
+  String get labelTerms {
+    return Intl.message(
+      'Terms of Service',
+      name: 'labelTerms',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Privacy Policy`
+  String get labelPrivacyPolicy {
+    return Intl.message(
+      'Privacy Policy',
+      name: 'labelPrivacyPolicy',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `User Agreement`
+  String get labelUserAgreement {
+    return Intl.message(
+      'User Agreement',
+      name: 'labelUserAgreement',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `No Information`
   String get noData {
     return Intl.message(
       'No Information',
       name: 'noData',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Cancelled login with google`
+  String get googleSignInCancelled {
+    return Intl.message(
+      'Cancelled login with google',
+      name: 'googleSignInCancelled',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Something went horribly wrong, please try again later!`
+  String get commonError {
+    return Intl.message(
+      'Something went horribly wrong, please try again later!',
+      name: 'commonError',
       desc: '',
       args: [],
     );
