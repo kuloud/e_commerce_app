@@ -13,6 +13,7 @@ dependencies:
   flutter:
     sdk: flutter
   fluttertoast: ^8.2.4
+  font_awesome_flutter: ^10.7.0
   get_it: ^7.6.7
   google_sign_in: ^6.2.1
   injectable: ^2.3.2

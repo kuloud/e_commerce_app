@@ -10,6 +10,9 @@ Future<void> main() async {
 
 Future<void> _init() async {
   // 组件初始化操作
+  // await Firebase.initializeApp(
+  //   options: DefaultFirebaseOptions.currentPlatform,
+  // );
 }
 
 class MainApp extends StatelessWidget {

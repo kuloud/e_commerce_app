@@ -41,6 +41,7 @@
 1. google_sign_in 谷歌登录
 1. firebase_analytics firebase分析
 1. fluttertoast toast
+1. font_awesome_flutter FontAwesome(MaterialIcons带的icon比较少)
 
 
 **可选**

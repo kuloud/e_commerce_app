@@ -4,6 +4,7 @@ import 'package:e_commerce_app/pages/index/me/me_page.dart';
 import 'package:e_commerce_app/pages/index/shop/shop_page.dart';
 import 'package:e_commerce_app/pages/index/warehouse/warehouse_page.dart';
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class IndexPage extends StatefulWidget {
   const IndexPage({super.key});
@@ -26,19 +27,19 @@ class _IndexPageState extends State<IndexPage> {
 
   final List<BottomNavigationBarItem> _barItems = [
     BottomNavigationBarItem(
-      icon: const Icon(Icons.home),
+      icon: const FaIcon(FontAwesomeIcons.house),
       label: S.current.tabBarHome,
     ),
     BottomNavigationBarItem(
-      icon: const Icon(Icons.shop),
+      icon: const FaIcon(FontAwesomeIcons.shop),
       label: S.current.tabBarShop,
     ),
     BottomNavigationBarItem(
-      icon: const Icon(Icons.warehouse),
+      icon: const FaIcon(FontAwesomeIcons.warehouse),
       label: S.current.tabBarWarehouse,
     ),
     BottomNavigationBarItem(
-      icon: const Icon(Icons.person),
+      icon: const FaIcon(FontAwesomeIcons.user),
       label: S.current.tabBarMe,
     ),
   ];
